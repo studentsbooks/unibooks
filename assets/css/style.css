@@ -1,0 +1,15 @@
+
+            body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f8f9fa; }
+            .hero-section { background: linear-gradient(135deg, #001f3f 0%, #007bff 100%); color: white; padding: 80px 0; }
+            .book-card { border: none; transition: transform 0.2s; background: white; border-radius: 8px; overflow: hidden; height: 100%; }
+            .book-card:hover { transform: translateY(-5px); box-shadow: 0 10px 20px rgba(0,0,0,0.1); }
+            .book-card img { height: 250px; object-fit: cover; }
+            .horizontal-scroll { display: flex; overflow-x: auto; gap: 1rem; padding-bottom: 1rem; }
+            .horizontal-scroll::-webkit-scrollbar { height: 8px; }
+            .horizontal-scroll::-webkit-scrollbar-thumb { background: #dee2e6; border-radius: 4px; }
+            .buy-btn { cursor: pointer; transition: opacity 0.2s; max-width: 300px; }
+            .buy-btn:hover { opacity: 0.8; }
+            .breadcrumb { background: none; padding: 0; }
+            #bot-overlay { position: fixed; top:0; left:0; width:100%; height:100%; background: rgba(255,255,255,0.8); backdrop-filter: blur(10px); z-index: 9999; display: flex; align-items: center; justify-content: center; }
+            .glass-modal { background: white; padding: 2rem; border-radius: 15px; box-shadow: 0 8px 32px rgba(0,0,0,0.1); text-align: center; max-width: 400px; }
+        
